@@ -54,9 +54,9 @@ com.google.android.videos                       # Google TV / Play Movies
 com.android.printspooler
 com.google.android.marvin.talkback              # re-enable if you need the screen reader
 
-# Google ambient mode screensaver (replaced by the launcher's Clock screensaver)
-com.google.android.apps.tv.dreamx
-com.google.android.backdrop
+# Google ambient mode screensaver. Kept here; uncomment both to swap in the launcher's Clock screensaver.
+# com.google.android.apps.tv.dreamx
+# com.google.android.backdrop
 
 # Stock home. launcher/build-and-install.sh disables launcherx itself once the new launcher is installed
 # and verified, and restore.sh re-enables it; setupwraith has to go too on this firmware (see quirks),
